@@ -1,0 +1,251 @@
+*{
+    /*So that it does not leave any space on all sides*/
+	margin:0;
+	padding:0;
+	/*For font style*/
+	font-family: 'Glory', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Images/ri.jpg);
+	/*So that it occupies full width and height*/
+	height:100vh;
+	width:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	/*So that it occupies full width and height*/
+	background-size:cover;
+
+
+	}
+
+nav img
+{
+	width:75px;
+    padding-top: 14px;
+}
+
+
+.nav-link
+{
+
+
+	text-align:right;
+}
+
+
+.nav-link ul li
+{
+
+list-style: none;
+/*To list the items horizontally*/
+display:inline-block;
+
+}
+.nav-link ul li a
+{
+
+	
+	padding:14px;
+    font-weight: bold;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:white;
+    font-size:20px;
+    text-shadow: 2px 3px black;
+   
+
+}
+.nav-link ul li a:hover
+{
+color:black;
+text-shadow: 2px 2px white;
+
+font-size:25px;
+}
+/*CONTENT*/
+.content
+{
+	color:#fdf9f9;
+	position:absolute;
+	 /*So that it will be in center */
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	text-align:center;
+	
+}
+.content h1
+{
+	font-size:65px;
+	text-shadow: 3px 4px black;
+}
+.content p
+{
+margin-top: 30px;
+margin-bottom:50px;
+font-size:30px;
+text-shadow: 3px 2px black;
+}
+
+.info
+{
+	text-align:center;
+	padding-top:70px;
+	/*TO add space from top and bottom*/
+	padding-bottom: 70px;
+		background-color:#fdf9f9;
+}
+.info h2{
+	font-size:40px;
+	text-shadow: 2px 2px grey;
+}
+.info p{
+
+	font-size:18px;
+	color:black;
+	/*TO add padding from all the 4 sides*/
+	padding: 12px;
+	padding-top:25px;
+}
+.head
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/evoo.jpg);/*to make the bg dark*/
+	height:50vh;
+	width:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	text-align:center;
+	padding-top: 100px;		
+	/*TO add space from top*/
+    
+}
+.head h2
+{
+
+	font-size:50px;
+    font-weight: bolder;
+    color:grey;
+    text-shadow:2px 2px #ffffff;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+    /*So that it will be in center */
+	
+}
+
+
+
+.links
+{
+	background-color:#fdf9f9;
+padding-top:25px;
+list-style-type:circle;
+
+}
+
+
+.links ul li 
+{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+
+/*to add spacing between the elements*/
+
+padding:6px 30px;
+
+   
+}
+
+
+table{
+	
+	
+	padding-left: 120px;
+	padding-bottom: 100px;
+}
+.click
+{
+	
+	text-align: center;
+	background-color:#fdf9f9;
+padding-top: 15px;
+
+}
+.click h3{
+font-size: 25px;
+
+}
+
+
+.btn button{
+	font-size:15px;
+	height:8%;
+	width:14%;
+	background-color: #DCAE96;
+	color:white;
+	border-radius: 30px;
+	border:2px solid white;
+    text-decoration: none;
+  
+
+}
+.btn button:hover
+{
+
+	background-color:white;
+	box-shadow:0px 2px 8px 6px #DCAE96; 
+	color:#DCAE96;
+}
+
+
+
+
+.spcf{
+	text-align:center;
+	padding-top: 100px;
+	background-color:#fdf9f9;
+}
+h2{
+	font-size:40px;
+	text-shadow: 2px 2px grey;
+}
+.sp
+{
+/*It will be in column*/
+	display:flex;
+	/*to add space b/w the boxes*/
+	justify-content: space-between;
+    padding-top:40px;
+    padding-left: 30px;
+    padding-right: 30px;
+ 
+
+}  
+.feature
+{
+
+	background-color:#fff3f3;
+    border-radius:12px;
+    padding:20px 20px;
+    width:27%;
+    margin-bottom: 5%;  
+    height:65%;
+  
+}
+h3{
+	text-align:center;
+	margin:10px;
+}
+.feature:hover
+{
+transform: scale(1.3);
+background:#DCAE96;
+color:#fff3f3;
+}
